@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terno Rei Oficial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="m-0 section-title">TERNO REI</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#home" class="nav-link">
+                            <i class="bi bi-house me-1"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#agenda" class="nav-link">
+                            <i class="bi bi-journal-text me-1"></i>
+                            Agenda
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#discografia" class="nav-link">
+                            <i class="bi bi-disc me-1"></i>
+                            Discografia
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#loja" class="nav-link">
+                            <i class="bi bi-bag me-1"></i>
+                            Loja
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="home">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
+                        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="images/carousel/videoclipe.png" alt="Propaganda de video clipe da banda">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="images/carousel/arteternorei.png" alt="Integrantes da banda">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="images/carousel/showternorei.jpg" alt="Terno rei">
+                                </div>
+                            </div>
+                            <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="agenda" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/agenda/showcuritiba.jpg" class="d-block w-100" alt="Foto próximo show da banda">
+                    </div>
+                    <div class="col-md-6 mt-3 mt-md-0">
+                        <h2 class="pb-3">[Agenda]</h2>
+                        <h3 class="mb-3">shows da gêmeostour_23</h3>
+                        <h3>04.11</h3>
+                        <p>porto alegre_rs _bar opinião</p>
+                        <h3>20.11</h3>
+                        <p>belém_pa _se rasgum</p>
+                        <h3>03.12</h3>
+                        <p>são paulo_sp _the town</p>
+                        <button type="button" class="btn btn-dark fw-bold">Ingressos</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="discografia" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">[Discografia]</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <img src="images/discos/gemeos.jpg" class="d-block w-100 mb-2" alt="Disco Gemeos">
+                        <h3 class="fs-4">Gêmeos</h3>
+                        <p>2022 _álbum</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/discos/violeta.jpg" class="d-block w-100 mb-2" alt="Disco Violeta">
+                        <h3 class="fs-4">Violeta</h3>
+                        <p>2019 _álbum</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/discos/essanoite.jpg" class="d-block w-100 mb-2" alt="Disco Essa noite bateu com um sonho">
+                        <h3 class="fs-4">Essa Noite Bateu Com Um Sonho</h3>
+                        <p>2016 _álbum</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/discos/vigilia.jpg" class="d-block w-100 mb-2" alt="Disco Vigilia">
+                        <h3 class="fs-4">Vigilia</h3>
+                        <p>2012 _álbum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="loja" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5">[Loja]</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-loja">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#roupas" class="fw-bold text-start nav-link text-colored active">Roupas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#discos" class="fw-bold text-start nav-link text-colored">Discos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="roupas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/loja/camiseta.png" alt="Camiseta preta">
+                                        <p class="text-center mt-2">Camiseta terno rei preta</p>
+                                        <h5 class="text-center">R$95,00</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/loja/camiseta2.png" alt="Camiseta branca">
+                                        <p class="text-center mt-2">Camiseta terno rei branca</p>
+                                        <h5 class="text-center">R$95,00</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/loja/bone.png" alt="Boné preto">
+                                        <p class="text-center mt-2">Boné terno rei preto</p>
+                                        <h5 class="text-center">R$85,00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="discos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/discos/gemeos.jpg" alt="Vinil do Gemeos">
+                                        <p class="text-center mt-2">Disco de Vinil Gêmeos</p>
+                                        <h5 class="text-center">R$135,00</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/discos/violeta.jpg" alt="Vinil do Violeta">
+                                        <p class="text-center mt-2">Disco de Vinil Violeta</p>
+                                        <h5 class="text-center">R$115,00</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/discos/aucustico.jpeg" alt="Vinil Acústico">
+                                        <p class="text-center mt-2">Disco de Vinil Acústico</p>
+                                        <h5 class="text-center">R$115,00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <p>
+                        &copy; Terno Rei - Todos os direitos reservados - 2023
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <ul class="social-links">
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-facebook text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5 ms-3 me-3">
+                            <a href="#">
+                                <i class="bi bi-instagram text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-whatsapp text-colored"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>

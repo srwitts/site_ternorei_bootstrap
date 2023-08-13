@@ -1,0 +1,86 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #13293d;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #13293d;
+}
+
+#cabecalho .nav .nav-link,
+.nav-loja .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-decoration: line-through 2px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.carousel-item img {
+    width: 950px;
+    height: 600px;
+}
+
+#home, #discografia {
+    background-color: #dae4ec;
+}
+
+.text-colored {
+    color: black;
+}
+
+.nav-loja .nav-link.active {
+    background-color: black;
+    color: #fff;
+}
+
+.nav-loja .nav-link:hover {
+    color: black;
+}
+
+footer {
+    background-color: #dae4ec;
+    color: #13293d;
+    padding: 16px 0;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.text-colored {
+    color: #13293d;
+}
+
+@media screen and (max-width: 640px) {
+    .carousel-item img {
+        width: 350px;
+        height: 230px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .carousel-item img {
+        width: 520px;
+        height: 340px;
+    }
+}
